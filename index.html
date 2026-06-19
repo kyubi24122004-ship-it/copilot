@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spice3K — Home</title>
+  <meta name="description" content="Spice3K — Modern spicy portfolio" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body class="bg-gradient-to-br from-[#0f172a] via-[#1f2937] to-[#111827] text-slate-100 font-inter">
+  <header class="sticky top-0 z-40 backdrop-blur bg-black/30">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <a href="/index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-rose-500 flex items-center justify-center text-black font-extrabold">S3</div>
+        <span class="text-lg font-bold tracking-tight">Spice3K</span>
+      </a>
+      <nav class="hidden md:flex gap-6 items-center">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/portfolio.html" class="nav-link">Portfolio</a>
+        <a href="/services.html" class="nav-link">Services</a>
+        <a href="/contact.html" class="nav-link border border-amber-400 px-3 py-2 rounded">Contact</a>
+      </nav>
+      <button id="mobileBtn" class="md:hidden p-2">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <nav id="mobileNav" class="md:hidden hidden bg-black/60">
+      <div class="flex flex-col divide-y divide-slate-700">
+        <a href="/index.html" class="p-4">Home</a>
+        <a href="/about.html" class="p-4">About</a>
+        <a href="/portfolio.html" class="p-4">Portfolio</a>
+        <a href="/services.html" class="p-4">Services</a>
+        <a href="/contact.html" class="p-4">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-8">
+    <section class="grid md:grid-cols-2 gap-8 items-center py-16">
+      <div>
+        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">Hot as spices. Modern as 3K.</h1>
+        <p class="mt-6 text-slate-300 max-w-xl">I design immersive interfaces and brand experiences that feel alive — bold color, motion, and crisp typography. This is a 5-page starter portfolio built for speed and sizzle.</p>
+        <div class="mt-8 flex gap-4">
+          <a href="/portfolio.html" class="px-6 py-3 bg-amber-400 text-black font-semibold rounded shadow-lg transform hover:scale-105 transition">See work</a>
+          <a href="/contact.html" class="px-6 py-3 border border-rose-500 rounded hover:bg-rose-600/20 transition">Let's talk</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="spice-card p-6 rounded-2xl" role="img" aria-label="Abstract colorful card">
+          <div class="text-amber-300 font-semibold">Featured Project</div>
+          <h3 class="text-2xl font-bold mt-2">Nebula Eats — Brand & App</h3>
+          <p class="mt-3 text-slate-200">A sizzling UX for a futuristic food brand — neon gradients, tactile micro-interactions, and bold visuals.</p>
+          <div class="mt-4 flex gap-3">
+            <span class="px-3 py-1 bg-white/10 rounded">UI</span>
+            <span class="px-3 py-1 bg-white/10 rounded">Brand</span>
+            <span class="px-3 py-1 bg-white/10 rounded">Motion</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <h2 class="text-3xl font-bold">Recent Work</h2>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="work-card p-4 rounded-lg">
+          <div class="h-40 rounded bg-gradient-to-br from-rose-400 to-amber-400"></div>
+          <h4 class="mt-3 font-semibold">Spice Market UI</h4>
+          <p class="text-slate-300 text-sm mt-1">E-commerce concept with hot visuals and fast checkout flows.</p>
+        </article>
+        <article class="work-card p-4 rounded-lg">
+          <div class="h-40 rounded bg-gradient-to-br from-purple-500 to-indigo-400"></div>
+          <h4 class="mt-3 font-semibold">3K Dashboard</h4>
+          <p class="text-slate-300 text-sm mt-1">Data-first dashboard with neon accents and ultramodern layout.</p>
+        </article>
+        <article class="work-card p-4 rounded-lg">
+          <div class="h-40 rounded bg-gradient-to-br from-yellow-400 to-red-500"></div>
+          <h4 class="mt-3 font-semibold">Motion Toolkit</h4>
+          <p class="text-slate-300 text-sm mt-1">Reusable motion system and microinteraction library.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-16 p-8 text-center text-slate-400">
+    <div>© <strong>Spice3K</strong> — Built for the future. Theme: Hot & Futuristic.</div>
+    <div class="mt-2 text-sm">Made with ❤️ — export to your repo and customize.</div>
+  </footer>
+
+  <script>
+    document.getElementById('mobileBtn').addEventListener('click', ()=>{
+      const nav = document.getElementById('mobileNav');
+      nav.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
