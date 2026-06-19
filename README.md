@@ -1,6 +1,6 @@
 # Spice3K Portfolio
 
-This is a 5-page starter portfolio (Home, About, Portfolio, Services, Contact) with a spicy/futuristic theme built using Tailwind CDN and minimal assets.
+This is a 10-page starter portfolio (Home, About, Portfolio, Case Studies, Blog, Services, Resume, FAQ, Contact, Privacy) with a spicy/futuristic theme built using Tailwind CDN and minimal assets.
 
 How to use
 
@@ -12,14 +12,19 @@ Customizing
 - Edit text and images in the HTML files.
 - Replace gradients and colors in assets/styles.css.
 
-Files added
+Files added/updated
 
-- index.html
-- about.html
-- portfolio.html
-- services.html
-- contact.html
-- assets/styles.css
+- index.html (updated navigation, header)
+- about.html (updated navigation)
+- portfolio.html (updated navigation)
+- services.html (updated navigation)
+- contact.html (updated navigation)
+- case-studies.html (new)
+- blog.html (new)
+- resume.html (new)
+- faq.html (new)
+- privacy.html (new)
+- assets/styles.css (unchanged)
 
 Branch: portfolio-site
 
