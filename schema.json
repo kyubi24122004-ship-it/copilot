@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TechVision Solutions",
+  "url": "https://techvisionsolutions.com",
+  "logo": "https://techvisionsolutions.com/logo.png",
+  "description": "Enterprise-grade SaaS solutions designed to elevate your digital presence and drive measurable results.",
+  "foundingDate": "2010",
+  "foundingLocation": "San Francisco, CA",
+  "sameAs": [
+    "https://www.linkedin.com/company/techvision-solutions",
+    "https://twitter.com/techvisionsolutions",
+    "https://www.facebook.com/techvisionsolutions",
+    "https://github.com/techvisionsolutions"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-415-555-1234",
+    "contactType": "Sales",
+    "email": "hello@techvision.com"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Innovation Boulevard",
+    "addressLocality": "San Francisco",
+    "addressRegion": "CA",
+    "postalCode": "94105",
+    "addressCountry": "US"
+  },
+  "service": [
+    {
+      "@type": "Service",
+      "name": "Cloud Infrastructure",
+      "description": "Scalable, secure cloud solutions built for enterprises",
+      "provider": {
+        "@type": "Organization",
+        "name": "TechVision Solutions"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Advanced Analytics",
+      "description": "Real-time insights and predictive analytics",
+      "provider": {
+        "@type": "Organization",
+        "name": "TechVision Solutions"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Security Solutions",
+      "description": "Enterprise-grade security with compliance certifications",
+      "provider": {
+        "@type": "Organization",
+        "name": "TechVision Solutions"
+      }
+    }
+  ]
+}
